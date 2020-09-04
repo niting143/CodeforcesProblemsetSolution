@@ -19,7 +19,7 @@ int main()
     while(t--){
     long long a,b,x,y,n;
     cin>>a>>b>>x>>y>>n;
-    cout<<min(res(a,b,x,y,n),res(b,a,y,x,n));
+    cout<<min(res(a,b,x,y,n),res(b,a,y,x,n))<<"\n";
     }
 
 
